@@ -1,0 +1,39 @@
+HOW TO RUN - Folio Book Search App
+====================================
+
+REQUIREMENTS
+------------
+- Node.js version 18 or higher
+- npm (comes installed with Node.js)
+
+Download Node.js here if needed: https://nodejs.org
+
+
+STEPS
+-----
+1. Open a terminal and navigate into the project folder:
+      cd folio
+
+2. Install dependencies:
+      npm install
+
+3. Start the development server:
+      npm run dev
+
+4. Open your browser and go to:
+      http://localhost:5173
+
+
+USING THE APP
+-------------
+- Type any book title, author, or subject into the search bar and press Search
+- Click any book card to open a detail view with full metadata
+- Click the heart icon on any book to save it
+- Click "Saved" in the top navigation to view your saved books
+
+
+NOTES
+-----
+- No API key is required. The app uses the free Open Library public API.
+- An internet connection is needed to fetch book data and cover images.
+- To stop the server, press Ctrl+C in the terminal.
